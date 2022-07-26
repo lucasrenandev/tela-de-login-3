@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(26deg, rgb(24, 52, 216), 34%, rgb(255, 0, 238));
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* ==== CONTAINER LOGIN ==== */
+
+.container-login {
+    max-width: 1100px;
+    height: 500px;
+    background-color: white;
+    margin: 60px auto 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container-login .img {
+    width: 50%;
+    text-align: center;
+}
+
+/* ==== CONTAINER LOGIN FORM ==== */
+
+.container-login .form {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-login .form h1 {
+    font-size: 2.6em;
+    margin: 0 0 20px 0;
+}
+
+.container-login .form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container-login .form form input {
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #E6E6E6;
+    color: #757575;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.container-login .form form input[type = "submit"] {
+    background-color: #42d42c;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container-login .form form input[type = "submit"]:hover {
+    background-color: #47A838;
+}
+
+.container-login .form form p {
+    font-size: 15px;
+}
+
+.container-login .form form p a {
+    text-decoration: none;
+    color: #696969;
+    font-size: 17px;
+}
+
+.container-login .form form p a:hover {
+    text-decoration: underline;
+}

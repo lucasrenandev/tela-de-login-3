@@ -1,0 +1,11 @@
+
+@media (max-width: 800px) {
+
+    .container-login .img {
+        display: none;
+    }
+
+    .container-login .form {
+        width: 100%;
+    }
+}
